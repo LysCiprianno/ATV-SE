@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fcaaaa; /* Cor de fundo suave */
+    font-family: Arial, sans-serif;
+}
+ 
+input, button {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 2px solid #34743d; /* Cor da borda */
+}
+ 
+button {
+    background-color: #e4e6de; /* Cor do botão */
+    color: rgb(45, 172, 51);
+    cursor: pointer;
+}
+ 
+button:hover {
+    background-color: #45a049; /* Cor do botão ao passar o mouse */
+}
